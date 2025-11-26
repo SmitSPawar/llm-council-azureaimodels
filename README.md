@@ -12,3 +12,5 @@ Instead of asking a single LLM (like GPT-4, GPT-4 Turbo, or GPT-4o), this projec
    Each model anonymously reviews and ranks the others’ responses for accuracy and insight.
 3. **Stage 3: Final Response**  
    The Chairman model synthesizes all responses into one final answer.
+
+   <img width="604" height="285" alt="image" src="https://github.com/user-attachments/assets/d36000dd-26fa-4439-9654-0abb1948ca39" />
