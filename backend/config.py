@@ -15,7 +15,7 @@ AZURE_API_VERSION = os.getenv("AZURE_API_VERSION", "2024-02-15-preview")
 # OpenRouter API key
 #OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-#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
+
 # Council members - list of OpenRouter model identifiers
 
 
