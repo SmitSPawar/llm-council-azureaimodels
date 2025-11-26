@@ -1,0 +1,104 @@
+Collecting fastapi
+  Obtaining dependency information for fastapi from https://files.pythonhosted.org/packages/7a/93/aa8072af4ff37b795f6bbf43dcaf61115f40f49935c7dbb180c9afc3f421/fastapi-0.122.0-py3-none-any.whl.metadata
+  Downloading fastapi-0.122.0-py3-none-any.whl.metadata (30 kB)
+Collecting uvicorn[standard]
+  Obtaining dependency information for uvicorn[standard] from https://files.pythonhosted.org/packages/ee/d9/d88e73ca598f4f6ff671fb5fde8a32925c2e08a637303a1d12883c7305fa/uvicorn-0.38.0-py3-none-any.whl.metadata
+  Downloading uvicorn-0.38.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting python-dotenv
+  Obtaining dependency information for python-dotenv from https://files.pythonhosted.org/packages/14/1b/a298b06749107c305e1fe0f814c6c74aea7b2f1e10989cb30f544a1b3253/python_dotenv-1.2.1-py3-none-any.whl.metadata
+  Downloading python_dotenv-1.2.1-py3-none-any.whl.metadata (25 kB)
+Collecting httpx
+  Obtaining dependency information for httpx from https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl.metadata
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting pydantic
+  Obtaining dependency information for pydantic from https://files.pythonhosted.org/packages/82/2f/e68750da9b04856e2a7ec56fc6f034a5a79775e9b9a81882252789873798/pydantic-2.12.4-py3-none-any.whl.metadata
+  Downloading pydantic-2.12.4-py3-none-any.whl.metadata (89 kB)
+     ---------------------------------------- 89.9/89.9 kB ? eta 0:00:00
+Collecting starlette<0.51.0,>=0.40.0 (from fastapi)
+  Obtaining dependency information for starlette<0.51.0,>=0.40.0 from https://files.pythonhosted.org/packages/d9/52/1064f510b141bd54025f9b55105e26d1fa970b9be67ad766380a3c9b74b0/starlette-0.50.0-py3-none-any.whl.metadata
+  Downloading starlette-0.50.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi)
+  Obtaining dependency information for typing-extensions>=4.8.0 from https://files.pythonhosted.org/packages/18/67/36e9267722cc04a6b9f15c7f3441c2363321a3ea07da7ae0c0707beb2a9c/typing_extensions-4.15.0-py3-none-any.whl.metadata
+  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi)
+  Obtaining dependency information for annotated-doc>=0.0.2 from https://files.pythonhosted.org/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl.metadata
+  Downloading annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)
+Collecting click>=7.0 (from uvicorn[standard])
+  Obtaining dependency information for click>=7.0 from https://files.pythonhosted.org/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl.metadata
+  Downloading click-8.3.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn[standard])
+  Obtaining dependency information for h11>=0.8 from https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl.metadata
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting colorama>=0.4 (from uvicorn[standard])
+  Obtaining dependency information for colorama>=0.4 from https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl.metadata
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting httptools>=0.6.3 (from uvicorn[standard])
+  Obtaining dependency information for httptools>=0.6.3 from https://files.pythonhosted.org/packages/b3/07/5b614f592868e07f5c94b1f301b5e14a21df4e8076215a3bccb830a687d8/httptools-0.7.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading httptools-0.7.1-cp311-cp311-win_amd64.whl.metadata (3.6 kB)
+Collecting pyyaml>=5.1 (from uvicorn[standard])
+  Obtaining dependency information for pyyaml>=5.1 from https://files.pythonhosted.org/packages/da/e3/ea007450a105ae919a72393cb06f122f288ef60bba2dc64b26e2646fa315/pyyaml-6.0.3-cp311-cp311-win_amd64.whl.metadata
+  Using cached pyyaml-6.0.3-cp311-cp311-win_amd64.whl.metadata (2.4 kB)
+Collecting watchfiles>=0.13 (from uvicorn[standard])
+  Obtaining dependency information for watchfiles>=0.13 from https://files.pythonhosted.org/packages/94/bc/f42d71125f19731ea435c3948cad148d31a64fccde3867e5ba4edee901f9/watchfiles-1.1.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading watchfiles-1.1.1-cp311-cp311-win_amd64.whl.metadata (5.0 kB)
+Collecting websockets>=10.4 (from uvicorn[standard])
+  Obtaining dependency information for websockets>=10.4 from https://files.pythonhosted.org/packages/98/93/e36c73f78400a65f5e236cd376713c34182e6663f6889cd45a4a04d8f203/websockets-15.0.1-cp311-cp311-win_amd64.whl.metadata
+  Using cached websockets-15.0.1-cp311-cp311-win_amd64.whl.metadata (7.0 kB)
+Collecting anyio (from httpx)
+  Obtaining dependency information for anyio from https://files.pythonhosted.org/packages/15/b3/9b1a8074496371342ec1e796a96f99c82c945a339cd81a8e73de28b4cf9e/anyio-4.11.0-py3-none-any.whl.metadata
+  Using cached anyio-4.11.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting certifi (from httpx)
+  Obtaining dependency information for certifi from https://files.pythonhosted.org/packages/70/7d/9bc192684cea499815ff478dfcdc13835ddf401365057044fb721ec6bddb/certifi-2025.11.12-py3-none-any.whl.metadata
+  Downloading certifi-2025.11.12-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx)
+  Obtaining dependency information for httpcore==1.* from https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl.metadata
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx)
+  Obtaining dependency information for idna from https://files.pythonhosted.org/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl.metadata
+  Using cached idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting annotated-types>=0.6.0 (from pydantic)
+  Obtaining dependency information for annotated-types>=0.6.0 from https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl.metadata
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.41.5 (from pydantic)
+  Obtaining dependency information for pydantic-core==2.41.5 from https://files.pythonhosted.org/packages/11/66/f14d1d978ea94d1bc21fc98fcf570f9542fe55bfcc40269d4e1a21c19bf7/pydantic_core-2.41.5-cp311-cp311-win_amd64.whl.metadata
+  Downloading pydantic_core-2.41.5-cp311-cp311-win_amd64.whl.metadata (7.4 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic)
+  Obtaining dependency information for typing-inspection>=0.4.2 from https://files.pythonhosted.org/packages/dc/9b/47798a6c91d8bdb567fe2698fe81e0c6b7cb7ef4d13da4114b41d239f65d/typing_inspection-0.4.2-py3-none-any.whl.metadata
+  Using cached typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting sniffio>=1.1 (from anyio->httpx)
+  Obtaining dependency information for sniffio>=1.1 from https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl.metadata
+  Using cached sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Downloading fastapi-0.122.0-py3-none-any.whl (110 kB)
+   ---------------------------------------- 110.7/110.7 kB ? eta 0:00:00
+Downloading python_dotenv-1.2.1-py3-none-any.whl (21 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading pydantic-2.12.4-py3-none-any.whl (463 kB)
+   ---------------------------------------- 463.4/463.4 kB 2.4 MB/s eta 0:00:00
+Downloading pydantic_core-2.41.5-cp311-cp311-win_amd64.whl (2.0 MB)
+   ---------------------------------------- 2.0/2.0 MB 3.1 MB/s eta 0:00:00
+Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading click-8.3.1-py3-none-any.whl (108 kB)
+   ---------------------------------------- 108.3/108.3 kB 1.6 MB/s eta 0:00:00
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading httptools-0.7.1-cp311-cp311-win_amd64.whl (86 kB)
+   ---------------------------------------- 86.9/86.9 kB 5.1 MB/s eta 0:00:00
+Using cached pyyaml-6.0.3-cp311-cp311-win_amd64.whl (158 kB)
+Downloading starlette-0.50.0-py3-none-any.whl (74 kB)
+   ---------------------------------------- 74.0/74.0 kB 4.0 MB/s eta 0:00:00
+Using cached anyio-4.11.0-py3-none-any.whl (109 kB)
+Using cached idna-3.11-py3-none-any.whl (71 kB)
+Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Downloading watchfiles-1.1.1-cp311-cp311-win_amd64.whl (287 kB)
+   ---------------------------------------- 287.6/287.6 kB 2.5 MB/s eta 0:00:00
+Using cached websockets-15.0.1-cp311-cp311-win_amd64.whl (176 kB)
+Downloading certifi-2025.11.12-py3-none-any.whl (159 kB)
+   ---------------------------------------- 159.4/159.4 kB 1.6 MB/s eta 0:00:00
+Downloading uvicorn-0.38.0-py3-none-any.whl (68 kB)
+   ---------------------------------------- 68.1/68.1 kB 3.6 MB/s eta 0:00:00
+Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Installing collected packages: websockets, typing-extensions, sniffio, pyyaml, python-dotenv, idna, httptools, h11, colorama, certifi, annotated-types, annotated-doc, typing-inspection, pydantic-core, httpcore, click, anyio, watchfiles, uvicorn, starlette, pydantic, httpx, fastapi
+Successfully installed annotated-doc-0.0.4 annotated-types-0.7.0 anyio-4.11.0 certifi-2025.11.12 click-8.3.1 colorama-0.4.6 fastapi-0.122.0 h11-0.16.0 httpcore-1.0.9 httptools-0.7.1 httpx-0.28.1 idna-3.11 pydantic-2.12.4 pydantic-core-2.41.5 python-dotenv-1.2.1 pyyaml-6.0.3 sniffio-1.3.1 starlette-0.50.0 typing-extensions-4.15.0 typing-inspection-0.4.2 uvicorn-0.38.0 watchfiles-1.1.1 websockets-15.0.1
